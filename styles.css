@@ -1,6 +1,5 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -20,15 +19,62 @@ a {
     color: white;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 36px;
-    color: #eee;
-    background-color: black;
-}
-
 .logo {
     font-size: 20px;
     font-weight: 700;
+}
+
+.header,
+.hero {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 36px;
+    color: #eee;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 80px 36px;
+    gap: 48px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    gap: 20px;
+    max-width: 400px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.hero-image {
+    flex-shrink: 0;
+    height: 300px;
+    width: 600px;
+    background-color: #eee;
+}
+
+#button-on-dark {
+    background-color: #FF2312;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    flex-shrink: 0;
+    padding: 12px 18px;
+
 }
