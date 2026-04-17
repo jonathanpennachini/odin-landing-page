@@ -55,7 +55,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    box-sizing: border-box;
     padding: 80px 36px;
     gap: 48px;
 }
@@ -188,6 +188,43 @@ a {
 .quote-author {
     color: #FF2312;
     text-align: right;
+    font-weight: 700;
+}
+
+.subs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 160px 0px;
+    background-color: #FF2312;
+}
+
+.subs-card {
+    color: black;
+    background-color: #EFD6D3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 1;
+    max-width: 900px;
+    margin: 0px 20px;
+    padding: 60px 80px;
+    gap: 60px;
+    border-radius: 8px;
+}
+
+.subs-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+    gap: 4px;
+}
+
+.subs-title {
+    font-size: 28px;
     font-weight: 700;
 }
 
