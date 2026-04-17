@@ -47,6 +47,10 @@ a {
     color: #eee;
 }
 
+.header-menu a {
+    color: #b4b4b4;
+}
+
 .hero-section {
     display: flex;
     justify-content: center;
@@ -69,6 +73,12 @@ a {
     font-size: 48px;
     font-weight: 800;
     line-height: 110%;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 130%;
+    color: #b4b4b4;
 }
 
 .hero-image img {
@@ -103,6 +113,12 @@ a {
     color: #c2c2c2;
 }
 
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -111,7 +127,6 @@ a {
     max-width: 240px;
     padding: 20px;
     gap: 12px;
-    font-size: 14px;
     border-radius: 8px;
     border: 2px solid #1d1d1d;
     color: #818181;
@@ -128,6 +143,10 @@ a {
     width: 100%;
 }
 
+.card-description {
+    font-size: 14px;
+}
+
 .card-gradient {
     position: absolute;
     background: linear-gradient(0deg, transparent, #fff);
@@ -136,7 +155,7 @@ a {
     top: 2px;
     left: 2px;
     right: 2px;
-    opacity: 0.1;
+    opacity: 0.08;
 }
 
 #button-on-dark {
