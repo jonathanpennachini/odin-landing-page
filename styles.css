@@ -92,7 +92,7 @@ a {
     padding: 80px 0px;
     gap: 40px;
     background-color: black;
-    background-image: url(/img/background-1.png);
+    background-image: url(./img/background-1.png);
     background-position: center;
     /* background-repeat: no-repeat; */
 }
@@ -107,6 +107,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    position: relative;
     max-width: 240px;
     padding: 20px;
     gap: 12px;
@@ -125,6 +126,17 @@ a {
 
 .card img {
     width: 100%;
+}
+
+.card-gradient {
+    position: absolute;
+    background: linear-gradient(0deg, transparent, #fff);
+    height: 12px;
+    border-radius: 4px 4px 0px 0px;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    opacity: 0.1;
 }
 
 #button-on-dark {
