@@ -207,6 +207,8 @@ a {
     box-sizing: border-box;
     padding: 160px 0px;
     background-color: #FF2312;
+    background-image: url(./img/background-2.jpg);
+    background-position: center;
 }
 
 .subs-card {
@@ -222,6 +224,7 @@ a {
     padding: 60px 80px;
     gap: 60px;
     border-radius: 8px;
+    border: 2px, solid, #ff7c66;
 }
 
 .subs-text {
@@ -246,5 +249,4 @@ a {
     border-radius: 8px;
     flex-shrink: 0;
     padding: 12px 18px;
-
 }
