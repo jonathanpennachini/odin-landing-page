@@ -16,7 +16,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #eee;
 }
 
 .logo {
@@ -34,12 +34,12 @@ a {
     width: 40px;
 }
 
-.header,
-.hero {
+.header-section,
+.hero-section {
     background-color: black;
 }
 
-.header {
+.header-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +47,7 @@ a {
     color: #eee;
 }
 
-.hero {
+.hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: white;
+    color: #eee;
     gap: 20px;
     max-width: 400px;
 }
@@ -74,7 +74,57 @@ a {
 .hero-image img {
     flex-shrink: 0;
     width: 600px;
-    background-color: #eee;
+}
+
+.info-section,
+.info.cards,
+.card {
+    box-sizing: border-box;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: fit-content;
+    margin: 0px;
+    padding: 80px 0px;
+    gap: 40px;
+    background-color: black;
+    background-image: url(/img/background-1.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #c2c2c2;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 240px;
+    padding: 20px;
+    gap: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid #1d1d1d;
+    color: #818181;
+    background-color: black;
+}
+
+.card-title {
+    color: #c2c2c2;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card img {
+    width: 100%;
 }
 
 #button-on-dark {
