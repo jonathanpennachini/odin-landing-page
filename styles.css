@@ -252,6 +252,13 @@ a {
     opacity: 0.2;
 }
 
+.footer {
+    padding: 40px 36px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
 #button-on-dark {
     background-color: #FF2312;
     color: white;
