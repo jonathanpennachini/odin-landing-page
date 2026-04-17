@@ -260,6 +260,7 @@ a {
 }
 
 #button-on-dark {
+    cursor: pointer;
     background-color: #FF2312;
     color: white;
     border: none;
