@@ -130,7 +130,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     position: relative;
     max-width: 240px;
     padding: 20px;
@@ -153,6 +153,17 @@ a {
 
 .card-description {
     font-size: 14px;
+    min-height: auto;
+    flex: 1;
+}
+
+.card-tag {
+    display: flex;
+    align-self: flex-end;
+    font-size: 13px;
+    color: #636363;
+    gap: 6px;
+    /* padding-top: 6px; */
 }
 
 .card-gradient {
@@ -270,3 +281,15 @@ a {
     flex-shrink: 0;
     padding: 12px 18px;
 }
+
+.card .material-symbols-outlined {
+  font-size: 16px;
+  line-height: 1;
+  display: inline-flex;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20;
+}
+
