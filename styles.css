@@ -56,23 +56,31 @@ a {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 80px 36px;
-    gap: 48px;
+    padding: 80px 0px;
 }
 
 .hero-content {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+    max-width: 1000px;
+    margin: 0px 36px;
+}
+
+.hero-text {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: #eee;
     gap: 20px;
-    max-width: 400px;
+    margin-top: 30px;
 }
 
 .hero-header {
     font-size: 48px;
     font-weight: 800;
     line-height: 110%;
+    color: #eee;
 }
 
 .hero-text {
@@ -171,6 +179,7 @@ a {
     flex-direction: column;
     max-width: 600px;
     gap: 24px;
+    margin: 0px 36px;
 }
 
 .quote-icon {
@@ -208,8 +217,8 @@ a {
     align-items: center;
     box-sizing: border-box;
     flex: 1;
-    max-width: 900px;
-    margin: 0px 20px;
+    max-width: 1000px;
+    margin: 0px 36px;
     padding: 60px 80px;
     gap: 60px;
     border-radius: 8px;
